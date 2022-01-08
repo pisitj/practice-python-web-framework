@@ -1,0 +1,24 @@
+---- models.py -----
+
+class Model_name(models.Model):
+    username = models.CharField(max_length = 128)
+    email = models.EmailField(max_length = 264, unique = True)
+
+
+-- python terminal ---
+
+python manage.py makemigrations 
+
+python manage.py migrate
+
+
+
+--- views.py ---
+
+from myapp.models import Model_name
+
+def record(request):
+    list = Model_name.objects.order_by('username')
+    my_dict = {'user_record': list}
+    return render(request, template_name = 'record.html', context = my_dict)
+	

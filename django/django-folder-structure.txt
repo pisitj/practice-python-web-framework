@@ -1,0 +1,39 @@
+------- folder project --------
+
+settings.py 
+>> add app
+>> add templates dir
+>> add static dir
+
+urls.py 
+>> connect to views.py (web pages)
+>> define home url (eg. www.google.com)
+>> define sub url (eg. www.google.com/help)
+
+
+
+--------- folder app ---------
+
+admin.py 
+>> superuser of website (debug mode)
+
+models.py 
+>> create class of basic object which will be auto-connected to database.
+
+views.py 
+>> connect to templates (HTML web pages)
+
+
+urls.py 
+>> can be included in urls.py (of project)
+
+form.py 
+>> 
+
+----- folder templates --------
+HTML files >> web pages
+
+
+------ folder static ---------
+CSS files
+image files

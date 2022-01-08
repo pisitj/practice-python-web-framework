@@ -1,0 +1,7 @@
+-- python terminal -- 
+
+activate myDjangoEnv 
+
+django-admin startproject myproject
+
+python manage.py runserver

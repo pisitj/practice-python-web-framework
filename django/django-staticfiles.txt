@@ -1,0 +1,10 @@
+--- create folder static ---
+
+--- setting.py ---
+STATIC_DIR = os.path.join(BASE_DIR, 'folder_name') 
+
+STATICFILES_DIR = [STATIC_DIR,]
+
+
+-- HTML file --
+{% load staticfiles %}

@@ -1,0 +1,4 @@
+-- main -- 
+
+Browser               <-> urls.py              <-> views.py           <-> templates  
+http://127.0.0.1:8000 <-> path('', views.home) <-> def home(request): <-> home.html

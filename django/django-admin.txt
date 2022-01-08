@@ -1,0 +1,13 @@
+-- admin.py ---
+from myapp.models import Model_name
+
+admin.site.register(Model)
+
+
+-- python terminal ---
+python manage.py createsuperuser
+
+
+-- open admin --
+http://127.0.0.1:8000/admin
+
